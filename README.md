@@ -7,7 +7,6 @@ Garde un compte Discord connecté en permanence dans un salon vocal, avec reconn
 - Connexion 24/7 dans un salon vocal (`selfMute` + `selfDeaf`).
 - Retour automatique si le compte est déplacé, déconnecté ou expulsé du salon.
 - Watchdog toutes les 60 s pour vérifier la connexion vocale.
-- Répond `9e7bat ban` quand un message contient `bla smia`.
 - Service systemd : redémarrage après crash et au reboot du serveur.
 
 > ⚠️ Utiliser un token de **compte** pour automatiser est interdit par les ToS Discord : le compte peut être désactivé. Utilise un compte secondaire et n'expose jamais le token.
