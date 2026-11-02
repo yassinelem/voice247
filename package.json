@@ -1,0 +1,16 @@
+{
+  "name": "discord-voice-247",
+  "version": "1.0.0",
+  "description": "Garde un compte Discord connecte 24/7 dans un salon vocal",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.8.4",
+    "opusscript": "^0.0.8"
+  }
+}
